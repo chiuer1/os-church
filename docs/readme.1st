@@ -1,0 +1,29 @@
+This file contains the basic information regarding the project.
+
+Purpose of project
+- learning Java 8
+- learning latest Web technologies (JSF, some client-side JS, Spring)
+- learning some SQL with Postgresql or MySQL
+- learning some native mobile dev (Android or iOS, TBD)
+- create simple applicationf for church mgmt
+
+
+Environment setup
+- Web App development middleware
+  - root folder - c:\learning 
+  - .\eclipse - Luna release
+  - .\Java - Java 8 SE
+  - .\wls - WebLogic server 12.1.3 (Java 8 compliant) developers license
+  - .\PostgreSQL9.3 - db runtime
+  - .\wldomain - the Web App domain (recommended to be created outside of wls)
+- MySQL Server
+  - Config Type: Development Machine
+  - Connectivity: TCPIP Port 3306
+  - Root Account Password: MysqlAdm1n
+  - MySQL User accounts created for App dev
+    - Username: AppAcc, pw: AppAccPW, Role: DB Admin
+  - Configure MYSQl server as service: Windows service name: MySQL56, start server at ssytem startup. Run windows as "Standard System Account"
+
+- Project artifacts
+  - Project source: C:\GitHubRepo\os-church
+  - this is also the directory for the local repo
