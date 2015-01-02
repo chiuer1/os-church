@@ -9,6 +9,18 @@ Purpose of project
 
 
 Environment setup
+- Development workstation setup: See below
+- AWS environment
+  - Performs the following
+    - Continuous Integration (Jenkins - monitoring Github repo activities), and continuous deployment
+    - Execution of builds
+  - Need following SW
+    - JDK 1.8 (Jenkins + Java runtime components)
+    - Jenkins + all needed Github plugins (for CI/CD)
+    - MySQL (same version/setup as in Dev workstation)
+    - WL (same version/setup as in Dev workstation)
+
+Software setup/configuration
 - Web App development middleware
   - root folder - c:\learning 
   - .\eclipse - Luna release
@@ -27,3 +39,4 @@ Environment setup
 - Project artifacts
   - Project source: C:\GitHubRepo\os-church
   - this is also the directory for the local repo
+  
